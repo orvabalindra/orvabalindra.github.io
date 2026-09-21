@@ -1,190 +1,629 @@
 <!doctype html>
 <html lang="id">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio personal Risky Orva, siswa SMK PGRI 3 Malang yang sedang berkembang di frontend web development dan UI/UX design.">
-  <meta name="author" content="Risky Orva">
+
+  <meta name="description"
+    content="Portfolio Mochammad Risky Orva Balindra, siswa SMK PGRI 3 Malang yang berfokus pada Front-End Web Development dan UI/UX.">
+  <meta name="author" content="Mochammad Risky Orva Balindra">
   <meta name="theme-color" content="#f7f7f4">
-  <meta property="og:title" content="Risky Orva — Portfolio">
-  <meta property="og:description" content="Frontend-focused student portfolio: web development, UI/UX, and ongoing projects.">
+
+  <meta property="og:title" content="Mochammad Risky Orva Balindra — Portfolio">
+  <meta property="og:description"
+    content="Frontend-focused student portfolio: web development, UI/UX, and selected projects.">
   <meta property="og:type" content="website">
-  <title>Risky Orva Portfolio</title>
+
+  <title>Mochammad Risky Orva Balindra — Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
+
 <body>
+
   <div class="site-shell">
+
+    <!-- =========================
+         HEADER
+    ========================== -->
     <header class="topbar">
-      <a class="availability" href="#contact" aria-label="Contact Risky Orva">
+
+      <a class="availability" href="#contact" aria-label="Contact Mochammad Risky Orva Balindra">
         <span class="status-dot"></span>
         <span>Open for PKL & collaboration</span>
       </a>
 
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
 
       <nav class="nav" id="site-nav" aria-label="Main navigation">
         <a href="#work">Work <small>[01]</small></a>
         <a href="#services">Services <small>[02]</small></a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+
+        <a class="nav-cta" href="#contact">
+          Let's talk <span>↗</span>
+        </a>
       </nav>
+
     </header>
 
+
     <main>
+
+      <!-- =========================
+           HERO
+      ========================== -->
       <section class="hero section-frame" id="home">
+
         <p class="eyebrow">PORTFOLIO</p>
-        <h1 class="name-lockup" aria-label="Risky Orva">
-          <span class="name-outline">RISKY</span>
-          <span class="name-solid">ORVA</span>
-        </h1>
+
+        <div class="name-marquee" aria-label="Mochammad Risky Orva Balindra">
+          <div class="name-track">
+
+            <div class="name-item">
+              <span class="name-outline">MOCHAMMAD</span>
+              <span class="name-solid">RISKY ORVA BALINDRA</span>
+            </div>
+
+            <div class="name-item" aria-hidden="true">
+              <span class="name-outline">MOCHAMMAD</span>
+              <span class="name-solid">RISKY ORVA BALINDRA</span>
+            </div>
+
+          </div>
+        </div>
 
         <div class="hero-grid">
+
           <div class="hero-copy">
-            <p class="role">Fullstack Developer <span>/</span><br>UI/UX Designer</p>
-            <p class="level">BEGINNER · BUILDING FROM THE BASICS</p>
-            <p class="intro">I am learning to build practical web applications from interface to backend while developing a strong foundation in UI/UX design.</p>
-            <a class="button button-dark" href="#work" data-show-all-work>View selected work <span>↗</span></a>
+
+            <p class="role">
+              Frontend Developer <span>/</span><br>
+              Web Development
+            </p>
+
+            <p class="level">
+              SMK STUDENT · FRONTEND FOCUSED
+            </p>
+
+            <p class="intro">
+              Siswa SMK PGRI 3 Malang yang berfokus pada Front-End Web Development
+              dan UI/UX. Berpengalaman mengembangkan project menggunakan HTML,
+              CSS, JavaScript, PHP, MySQL, Bootstrap, dan Laravel melalui project
+              sekolah dan project mandiri.
+            </p>
+
+            <a class="button button-dark" href="#work" data-show-all-work>
+              View selected work <span>↗</span>
+            </a>
+
           </div>
+
 
           <div class="profile-wrap">
+
             <div class="profile-photo">
-              <img src="assets/profile.png" alt="Foto profil Risky Orva">
+              <img src="assets/profile.png" alt="Foto profil Mochammad Risky Orva Balindra">
             </div>
+
           </div>
+
 
           <div class="social-stack" aria-label="Contact links">
-            <a href="https://github.com/orvabalindra" target="_blank" rel="noopener" aria-label="GitHub">GitHub <span>↗</span></a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=orvaskr14@gmail.com" aria-label="Email">Email <span>↗</span></a>
-            <a href="https://wa.me/6285741933448" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp <span>↗</span></a>
+
+            <a href="https://github.com/orvabalindra" target="_blank" rel="noopener" aria-label="GitHub">
+              GitHub <span>↗</span>
+            </a>
+
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=orvaskr14@gmail.com" aria-label="Email">
+              Email <span>↗</span>
+            </a>
+
+            <a href="https://wa.me/6285741933448" target="_blank" rel="noopener" aria-label="WhatsApp">
+              WhatsApp <span>↗</span>
+            </a>
+
           </div>
+
         </div>
+
       </section>
 
+
+      <!-- =========================
+           SERVICES
+      ========================== -->
       <section class="section-frame services" id="services">
+
         <div class="section-heading">
+
           <p class="section-index">/01</p>
+
           <div>
             <h2>WHAT I DO</h2>
-            <p class="section-note">Two directions I am currently developing through projects and practice.</p>
+
+            <p class="section-note">
+              Areas I am currently developing through projects and practice.
+            </p>
           </div>
+
         </div>
+
+
         <div class="service-list" aria-label="What I do">
+
           <a href="#work" class="service-row" data-work-filter="development" aria-controls="work" aria-pressed="false">
             <span class="service-no">01</span>
-            <span><strong>FULLSTACK DEVELOPMENT</strong><small>Frontend, backend, database, and web application fundamentals.</small></span>
+
+            <span>
+              <strong>FRONTEND WEB DEVELOPMENT</strong>
+              <small>
+                HTML, CSS, JavaScript, Bootstrap, responsive layout,
+                and web interface development.
+              </small>
+            </span>
+
             <span class="arrow">↗</span>
           </a>
+
+
           <a href="#work" class="service-row" data-work-filter="uiux" aria-controls="work" aria-pressed="false">
             <span class="service-no">02</span>
-            <span><strong>UI/UX DESIGN</strong><small>Clean interfaces, visual hierarchy, layout, and user-focused thinking.</small></span>
+
+            <span>
+              <strong>UI/UX DESIGN</strong>
+              <small>
+                Basic layout, visual hierarchy, responsive design,
+                and user-focused interface thinking.
+              </small>
+            </span>
+
             <span class="arrow">↗</span>
           </a>
+
         </div>
+
       </section>
 
+
+      <!-- =========================
+           SELECTED WORK
+      ========================== -->
       <section class="section-frame work" id="work">
+
         <div class="section-heading section-heading-light">
+
           <p class="section-index">/02</p>
+
           <div>
             <h2>SELECTED WORK</h2>
-            <p class="section-note" id="work-note">Projects that show what I am learning through real practice.</p>
+
+            <p class="section-note" id="work-note">
+              Projects that show my experience through school and personal practice.
+            </p>
           </div>
+
         </div>
 
-        <div class="project-grid single-project">
+
+        <div class="project-grid">
+
+          <!-- PROJECT 01 -->
           <article class="project-card" data-project="0" data-work-type="development uiux">
-            <div class="project-image project-image-one"><span>01</span></div>
-            <div class="project-meta"><span>LARAVEL / PHP / MYSQL / BOOTSTRAP</span><span>IN PROGRESS</span></div>
-            <div class="project-title-row"><h3>Blodora App</h3><span class="project-status">TEAM PROJECT</span></div>
-            <p>A blood donation management system built as a team Laravel project. I am developing this project while learning frontend, backend, authentication, database integration, and role-based pages.</p>
-            <div class="project-detail-strip">
-              <span><b>ROLE</b> Frontend / Fullstack Beginner</span>
-              <span><b>STATUS</b> In Progress</span>
+
+            <div class="project-image project-image-one">
+              <img src="assets/projects/blodora-dashboard.png" alt="Dashboard admin Blodora">
+              <span class="project-number">01</span>
             </div>
-            <button class="text-link" type="button">View repository <span>↗</span></button>
+
+            <div class="project-meta">
+              <span>LARAVEL / PHP / MYSQL / BOOTSTRAP</span>
+              <span>TEAM PROJECT</span>
+            </div>
+
+            <div class="project-title-row">
+              <h3>Blodora — Blood Donation Management System</h3>
+              <span class="project-status">WEB DEVELOPER</span>
+            </div>
+
+            <p>
+              Sistem manajemen donor darah yang dikembangkan secara berkelompok
+              menggunakan Laravel. Saya berkontribusi pada dashboard admin,
+              pengelolaan data pendonor, CRUD, routing, Blade, authentication
+              berbasis role, UI dashboard, navigasi, dan alur halaman.
+            </p>
+
+            <div class="project-detail-strip">
+
+              <span>
+                <b>ROLE</b>
+                Web Developer
+              </span>
+
+              <span>
+                <b>STACK</b>
+                Laravel / PHP / MySQL / Bootstrap
+              </span>
+
+            </div>
+
+            <button class="text-link" type="button">
+              View project <span>↗</span>
+            </button>
+
           </article>
+
+
+          <!-- PROJECT 02 -->
+          <article class="project-card" data-project="1" data-work-type="development uiux">
+
+            <div class="project-image project-image-two">
+              <img src="assets/projects/portfolio-website.png" alt="Portfolio website Mochammad Risky Orva Balindra">
+              <span class="project-number">02</span>
+            </div>
+
+            <div class="project-meta">
+              <span>HTML / CSS / JAVASCRIPT</span>
+              <span>PERSONAL PROJECT</span>
+            </div>
+
+            <div class="project-title-row">
+              <h3>Portfolio Website</h3>
+              <span class="project-status">FRONTEND</span>
+            </div>
+
+            <p>
+              Website portfolio pribadi untuk menampilkan profil, skills,
+              dan project. Website dikembangkan dengan responsive layout,
+              navigasi, project showcase, dan beberapa elemen interaktif.
+            </p>
+
+            <div class="project-detail-strip">
+
+              <span>
+                <b>ROLE</b>
+                Frontend Developer
+              </span>
+
+              <span>
+                <b>STACK</b>
+                HTML / CSS / JavaScript
+              </span>
+
+            </div>
+
+            <button class="text-link" type="button">
+              View project <span>↗</span>
+            </button>
+
+          </article>
+
         </div>
+
       </section>
 
+
+      <!-- =========================
+           ABOUT / SKILLS
+      ========================== -->
       <section class="section-frame experience" id="about">
+
         <div class="section-heading">
+
           <p class="section-index">/03</p>
+
           <div>
             <h2>ABOUT / SKILLS</h2>
-            <p class="section-note">Current level and technologies I am learning or using.</p>
+
+            <p class="section-note">
+              Current skills and technologies I use in projects.
+            </p>
           </div>
+
         </div>
+
 
         <div class="about-grid">
+
+
           <div class="about-copy">
-            <p class="about-role">RISKY ORVA</p>
-            <p>I am a student at <strong>SMK PGRI 3 Malang</strong> who is currently building a foundation in frontend web development and UI/UX design.</p>
-            <p>I am learning how a website works from the interface to the server side while practicing through real projects. My current focus is improving HTML, CSS, JavaScript, PHP, Laravel, databases, and interface design fundamentals.</p>
+
+            <p class="about-role">
+              MOCHAMMAD RISKY ORVA BALINDRA
+            </p>
+
+
+            <p>
+              Saya adalah siswa <strong>SMK PGRI 3 Malang</strong>
+              yang berfokus pada Front-End Web Development dan UI/UX.
+            </p>
+
+
+            <p>
+              Saya telah mengembangkan project sekolah dan project mandiri
+              menggunakan HTML, CSS, JavaScript, PHP, MySQL, Bootstrap,
+              dan Laravel. Saat ini saya terus memperkuat kemampuan dalam
+              responsive design, CRUD, dashboard, dan pengembangan web.
+            </p>
+
+
             <div class="about-info">
-              <div><span>STATUS</span><strong>SMK STUDENT</strong></div>
-              <div><span>SCHOOL</span><strong>SMK PGRI 3 MALANG</strong></div>
-              <div><span>FOCUS</span><strong>FRONTEND / UI/UX</strong></div>
+
+              <div>
+                <span>STATUS</span>
+                <strong>SMK STUDENT</strong>
+              </div>
+
+              <div>
+                <span>SCHOOL</span>
+                <strong>SMK PGRI 3 MALANG</strong>
+              </div>
+
+              <div>
+                <span>FOCUS</span>
+                <strong>FRONTEND / UI/UX</strong>
+              </div>
+
             </div>
+
           </div>
+
 
           <div class="skills-panel" aria-label="Skills">
+
+            <!-- FRONTEND -->
             <div class="skill-group">
-              <span>CORE</span>
+
+              <span>FRONTEND</span>
+
               <div class="skill-list">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript <em>Dasar</em></span>
-                <span>Java</span>
-                <span>PHP</span>
+
+                <div class="skill-item">
+                  <i class="devicon-html5-plain colored"></i>
+                  <span>HTML</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-css3-plain colored"></i>
+                  <span>CSS</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-bootstrap-plain colored"></i>
+                  <span>Bootstrap</span>
+                </div>
+
               </div>
+
             </div>
+
+
+            <!-- BACKEND -->
             <div class="skill-group">
-              <span>WEB STACK</span>
+
+              <span>BACKEND</span>
+
               <div class="skill-list">
-                <span>MySQL <em>Dasar</em></span>
-                <span>Laravel <em>Dasar</em></span>
-                <span>React <em>Dasar</em></span>
-                <span>Bootstrap <em>Dasar</em></span>
+
+                <div class="skill-item">
+                  <i class="devicon-php-plain colored"></i>
+                  <span>PHP</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-laravel-original colored"></i>
+                  <span>Laravel</span>
+                </div>
+
               </div>
+
             </div>
+
+
+            <!-- DATABASE -->
+            <div class="skill-group">
+
+              <span>DATABASE</span>
+
+              <div class="skill-list">
+
+                <div class="skill-item">
+                  <i class="devicon-mysql-plain colored"></i>
+                  <span>MySQL</span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- TOOLS -->
+            <div class="skill-group">
+
+              <span>TOOLS</span>
+
+              <div class="skill-list">
+
+                <div class="skill-item">
+                  <i class="devicon-git-plain colored"></i>
+                  <span>Git</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-github-original"></i>
+                  <span>GitHub</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="devicon-vscode-plain colored"></i>
+                  <span>VS Code</span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- UI/UX -->
+            <div class="skill-group">
+
+              <span>UI/UX</span>
+
+              <div class="skill-list">
+
+                <div class="skill-item">
+                  <span class="skill-symbol">UI</span>
+                  <span>Basic Layout</span>
+                </div>
+
+                <div class="skill-item">
+                  <span class="skill-symbol">RWD</span>
+                  <span>Responsive Design</span>
+                </div>
+
+              </div>
+
+            </div>
+
           </div>
+
         </div>
+
       </section>
 
+
+      <!-- =========================
+           CONTACT
+      ========================== -->
       <section class="section-frame contact" id="contact">
+
         <div class="contact-left">
           <p class="section-index">/04</p>
-          <h2>LET'S BUILD<br>SOMETHING USEFUL.</h2>
+
+          <h2>
+            LET'S BUILD<br>
+            SOMETHING<br>
+            USEFUL.
+          </h2>
         </div>
+
+
         <div class="contact-right">
-          <p>For a project, collaboration, feedback, or just a technical conversation, send me a message.</p>
-          <a class="email-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=orvaskr14@gmail.com">orvaskr14@gmail.com <span>↗</span></a>
-          <a class="email-link" href="https://wa.me/6285741933448" target="_blank" rel="noopener">WhatsApp: 085741933448 <span>↗</span></a>
+
+          <p class="contact-intro">
+            Untuk PKL, project, collaboration, feedback,
+            atau technical conversation, silakan hubungi saya.
+          </p>
+
+
+          <div class="contact-links">
+
+            <a class="contact-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=orvaskr14@gmail.com">
+              <span class="contact-label">EMAIL</span>
+              <span class="contact-value">
+                orvaskr14@gmail.com
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+
+            <a class="contact-link" href="https://wa.me/6285741933448" target="_blank" rel="noopener">
+              <span class="contact-label">WHATSAPP</span>
+              <span class="contact-value">
+                085741933448
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+
+            <a class="contact-link" href="https://github.com/orvabalindra" target="_blank" rel="noopener">
+              <span class="contact-label">GITHUB</span>
+              <span class="contact-value">
+                github.com/orvabalindra
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+          </div>
+
         </div>
+
       </section>
+
     </main>
 
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
     <footer class="footer section-frame">
-      <span>© 2026 Risky Orva</span>
-      <a href="#home">Back to top ↑</a>
+
+      <span>
+        © 2026 Mochammad Risky Orva Balindra
+      </span>
+
+      <a href="#home">
+        Back to top ↑
+      </a>
+
     </footer>
+
   </div>
 
+
+  <!-- =========================
+       PROJECT DIALOG
+  ========================== -->
   <dialog class="project-dialog" id="project-dialog">
+
     <div class="dialog-top">
+
       <span>PROJECT</span>
-      <button class="dialog-close" type="button" aria-label="Close">Close ×</button>
+
+      <button class="dialog-close" type="button" aria-label="Close">
+        Close ×
+      </button>
+
     </div>
+
+
     <div class="dialog-content">
+
       <div class="dialog-index" id="dialog-index">01</div>
+
+      <div class="dialog-project-image">
+        <img id="dialog-image" src="assets/projects/blodora-dashboard.png" alt="Project preview">
+      </div>
+
       <h2 id="dialog-title">Project</h2>
-      <p id="dialog-text">Project description.</p>
+
+      <p id="dialog-text">
+        Project description.
+      </p>
+
       <div class="dialog-details" id="dialog-details"></div>
-      <a id="dialog-link" href="#" class="button button-dark" target="_blank" rel="noopener">Open repository ↗</a>
+
+      <a id="dialog-link" href="#" class="button button-dark" target="_blank" rel="noopener">
+        Open project ↗
+      </a>
+
     </div>
+
   </dialog>
 
+
   <script src="script.js"></script>
+
 </body>
+
 </html>
