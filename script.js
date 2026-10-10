@@ -53,6 +53,24 @@ const projects = [
 
     url: 'https://orvabalindra.github.io/',
     linkText: 'Open website ↗'
+  },
+
+  {
+    index: '03',
+    title: 'To-DO list Website',
+
+    text:
+      'Website to-do list berfungsi sebagai alat manajemen waktu yang efektif untuk membantu pengguna mengorganisasi aktivitas harian mereka secara terstruktur. Dengan mencatat semua rencana kerja di satu tempat, aplikasi ini mencegah adanya tugas penting yang terlewat atau terlupakan. Pengguna dapat dengan mudah menentukan prioritas, mengalokasikan waktu dengan lebih baik, dan mengurangi stres akibat beban kerja yang menumpuk.',
+
+    role: 'Frontend Developer',
+    status: 'Personal Project',
+    stack: 'HTML · CSS · JavaScript',
+
+    image: 'assets/projects/ToDo-app.png',
+    imageAlt: 'To-Do list website',
+
+    url: 'https://orvabalindra.github.io/todo-app-orva/',
+    linkText: 'Open website ↗'
   }
 ];
 
